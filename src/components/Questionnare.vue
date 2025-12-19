@@ -12,7 +12,7 @@
 
                     <!-- BRAND -->
                     <a href="/" class="flex text-2xl font-bold text-gray-800 pb-4">
-                        <img src="/logo.png" alt="Hricho Logo" class="h-6.5 sm:h-6.5 mr-2" />
+                        <img src="/logo-1.png" alt="Hricho Logo" class="h-6.5 sm:h-6.5 mr-2" />
                         hricho
                     </a>
 
