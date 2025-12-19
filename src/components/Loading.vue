@@ -5,7 +5,7 @@
     :class="fadeOut ? 'opacity-0' : 'opacity-100'"
   >
    <div class="flex  text-5xl font-bold text-gray-800 pb-4">
-        <img src="/logo.png" alt="Hricho Logo" class=" h-10 mr-2" />
+        <img src="/logo-1.png" alt="Hricho Logo" class=" h-10 mr-2" />
         hricho
     </div>
     <!-- Spinner -->
