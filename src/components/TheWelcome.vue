@@ -4,8 +4,8 @@
 
     <!-- Navbar -->
     <header class="absolute top-0 left-0 w-full flex justify-between items-center px-6 sm:px-12 lg:px-20 py-6 z-50">
+      <img src="https://iteba.ac.id/wp-content/uploads/2022/12/logo-iteba.png" class="h-10"/>
       <div class="flex  text-3xl font-bold text-gray-800">
-
         <span className="">Hydrobot</span>
       </div>
     </header>
@@ -364,7 +364,7 @@
             <!-- IMAGE -->
             <div class="relative overflow-hidden rounded-2xl bg-gray-100 aspect-[3/4]">
               <img :src="member.image" :alt="member.name"
-                class="w-full h-full object-cover transition duration-500 group-hover:scale-105" />
+                class="w-full h-full object-cover object-center transition duration-500 group-hover:scale-105" />
 
               <!-- subtle overlay pattern -->
               <div
@@ -439,16 +439,16 @@
 const team = [
   { name: "Muhammad Miqdad", role: "Project Leader", image: "/miqdad.jpeg" },
   { name: "Fernandi Lucky Putra", role: "Hardware Engineer", image: "/fernadi.jpeg" },
-  { name: "I Gusti Bagus Agung Dharmaya", role: "Hardware Engineer", image: "/andi.jpg" },
+  { name: "I Gusti Bagus Agung Dharmaya", role: "Hardware Engineer", image: "/agung.jpeg" },
   { name: "Alim Pranoto ", role: "Embedded System Engineer", image: "/rizky.jpg" },
   { name: "Fajar Nugroho", role: "Mechanical Designer", image: "/fajar.jpg" },
-  { name: "Kukuh enggal pratama", role: "Programmer", image: "/putri.jpg" },
+  { name: "Kukuh enggal pratama", role: "Programmer", image: "https://media.licdn.com/dms/image/v2/D5635AQFBxx9eW-bbWg/profile-framedphoto-shrink_800_800/B56ZtFR5xGHYAg-/0/1766393879910?e=1767337200&v=beta&t=TqzT0sWRF07cXV0IG8pwmnAIw9_UJXNf5xbhDkZLMLQ" },
   { name: "Surya Tirta Chandra", role: "Programmer", image: "/surya.JPG" },
-  { name: "Fakhri Aprianza", role: "Embedded System Engineer", image: "/nabila.jpg" },
+  { name: "Fakhri Aprianza", role: "Programmer", image: "/fakhri.jpeg" },
   { name: "Conita Khairunisa Gunawan", role: "Documentation", image: "/ahmad.jpg" },
   { name: "Alfindra", role: "Embedded System Engineer", image: "/dinda.jpg" },
   { name: "ghanang harisya ubra ", role: "Mechanical Designer", image: "/ilham.jpg" },
   { name: "Samuel Enrico sitompul", role: "Mechanical Designer", image: "/ilham.jpg" },
-  { name: "Natasya nur hadi", role: "Documentation", image: "/ilham.jpg" },
+  { name: "Natasya nur hadi", role: "Documentation", image: "https://media.licdn.com/dms/image/v2/D4E03AQF1T1jQJFScoA/profile-displayphoto-crop_800_800/B4EZmVYw5_KkAM-/0/1759147924999?e=1768435200&v=beta&t=tjqZcrw0Ew-5EwLYg4OTAiZcMgpO_kCIkkQ518CTi8Y" },
 ];
 </script>
