@@ -494,7 +494,7 @@
               <!-- IMAGE -->
               <div class="relative flex-shrink-0">
                 <div class="relative overflow-hidden rounded-2xl bg-gray-100 w-44 md:w-64 aspect-[3/4]">
-                  <img src="../../public/dp.JPG" alt="Dosen Pengampu"
+                  <img :src="dp" alt="Dosen Pengampu"
                     class="w-full h-full object-cover transition duration-500 hover:scale-105" />
                 </div>
               </div>
@@ -611,6 +611,7 @@
 </template>
 
 <script setup>
+  import dp from '@/public/dp.JPG'
 const team = [
   { name: "Muhammad Miqdad", role: "Project Leader", image: "/miqdad.png" },
   { name: "Fernandi Lucky Putra", role: "Hardware Engineer", image: "/fernandi.png" },
